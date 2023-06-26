@@ -1,0 +1,56 @@
+	.tTip {width: 200px; position: absolute; cursor: pointer; color: #666; font-weight: bold;}
+	.tip {color: #333;}
+	
+.td_img {
+	position: relative;
+	background-image: url(../img/index.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 300px;
+	width: 300px;
+}
+.td_img .tTip{
+	position: absolute;
+}
+.td_img #cloud1{
+	left: 38px;
+	top: 56px;
+	width: 89px;
+	height: 102px;
+
+}
+.td_img #cloud2{
+	left: 202px;
+	top: 56px;
+	width: 67px;
+	height: 100px;
+
+}
+.td_img #cloud3{
+	left: 83px;
+	top: 222px;
+	width: 138px;
+	height: 45px;
+}
+
+.td_img .gif{
+	z-index: 1;
+}
+				
+/*-----------------------------------------------------------------------------------------------*/
+/*                                         TOOLTIP STYLES                                        */
+/*-----------------------------------------------------------------------------------------------*/
+
+.tip {
+	width: 300px;
+	padding-top: 37px;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index: 500;
+	background: transparent url(images/tipTop.png) no-repeat top;
+	font-size: 14px;
+}
+	
+.tipMid {background: transparent url(images/tipMid.png) repeat-y; padding: 0 25px 20px 25px;}
+.tipBtm {background: transparent url(images/tipBtm.png) no-repeat bottom; height: 32px;}
